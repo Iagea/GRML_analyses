@@ -29,6 +29,5 @@ pip install .
 # Examples
 
 ```
-python predict_GR_class.py test.csv -c morph_smiles --CL 0.8 --other_scores 1
+python predict_GR_class.py ./data/test.csv -c morph_smiles --CL 0.8 --other_scores 1
 ```
-\
