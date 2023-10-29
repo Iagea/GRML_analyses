@@ -1,8 +1,6 @@
 # GRML_analysis
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)](https://GitHub.com/iagea/GRML_analyses/graphs/commit-activity)
-[![GitHub issues](https://img.shields.io/github/issues/iagea/GRML_analyses.svg)](https://GitHub.com/iagea/GRML_analyses/issues/)
-[![GitHub contributors](https://img.shields.io/github/contributors/iagea/GRML_analyses.svg)](https://GitHub.com/iagea/GRML_analyses/graphs/contributors/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10051801.svg)](https://doi.org/10.5281/zenodo.10051801)
 
 This library will perform a set of 100 random forest classification models using Mondrian cross-conformal prediction, as described on our paper [](). 
