@@ -142,16 +142,16 @@ def main():
     # TODO check if it is available, if not, download it from ZENODO
 
     # download models pickle file if it isn't there still
-    model_path = "./models/M33_models_including_kfold.pkl"
+    model_path = "./models/Model33.pkl"
     if not os.path.exists(model_path):
         print("Downloading models...")
-        url = "https://zenodo.org/record/10051801/M33_models_including_kfold"
+        url = "https://zenodo.org/record/10051801/Model33.pkl"
         req = requests.get(url, allow_redirects=True)
         with open(model_path, "wb") as model_file:
             model_file.write(req.content)
         print("Successfully downloaded!")
 
-    with open('./models/M33_models_including_kfold.pkl', 'rb') as file:
+    with open('./models/Model33.pkl', 'rb') as file:
         loaded_models = pickle.load(file)
 
     with open('./models/M33_nonconformist_lists_including_kfold.pkl', 'rb') as file:
