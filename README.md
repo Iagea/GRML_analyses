@@ -1,11 +1,11 @@
-# GRML_analysis
+# GRML_analyses
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)](https://GitHub.com/iagea/GRML_analyses/graphs/commit-activity)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10051801.svg)](https://doi.org/10.5281/zenodo.10051801)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10071370.svg)](https://doi.org/10.5281/zenodo.10071370)
 
-This library will perform a set of 100 random forest classification models using Mondrian cross-conformal prediction, as described on our paper [](). 
+This library is designed to execute a suite of 100 random forest classification models leveraging the Mondrian cross-conformal prediction method, as outlined in our published paper.
 
-It also gives the option to obtain QED, NIBR and MolSkill scores. As well as the predicted pEC50.
+Additionally, the library offers the functionality to compute and retrieve scores for QED (Quantitative Estimate of Drug-likeness), NIBR (Novartis Institutes for BioMedical Research), and MolSkill. It also facilitates the estimation of predicted pEC50 values.
 
 ### Installation
 
@@ -16,7 +16,6 @@ cd GRML_analyses
 conda env create -f environment.yml
 conda activate GRML_analyses
 pip install -e .
-cd ../
 ```
 
 Install [MolSkill](https://github.com/microsoft/molskill/tree/main)
